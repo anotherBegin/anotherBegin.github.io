@@ -1,4 +1,4 @@
-<<!--qqhyw.html-->
+<!--qqhyw.html-->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,30 +6,24 @@
 		<title>全球黄页</title>
 		<link rel="stylesheet" href="hywmenu.css" type="text/css">
 	</head>
-	<body style>
+	<body>
+		{{qzcontent}}
 		<div style="display:none"></div>
 		<div class="top">
         <div class="m">
-			<div class="f_1" id="lohinbox">
-                <script type="text/javascript" src="http://my.qqhyw.com/jslogin" charset="gb2312"></script>
-				您好，欢迎来到全球黄页网&nbsp;&nbsp;
-				<span>|</span>
-				&nbsp;&nbsp;
-				<a href="">请登入</a>
-				&nbsp;&nbsp;
-				<span>|</span>
-				&nbsp;&nbsp;
-				
-				<a href="http://my.qqhyw.com/register?token=22763647be8c5dff16">免费注册</a>
-				&nbsp;&nbsp;
-				<span>|</span>
-				&nbsp;&nbsp;
-				<a href="http://my.qqhyw.com/getpass">找回密码</a>
+			<div class="f_l" id="lohinbox">
+				您好，欢迎来到全球黄页网&nbsp;
+				<span>|</span>&nbsp;
+				<a href="http://my.qqhyw.com/login">请登录</a>&nbsp;
+				<span>|</span>&nbsp;
+				<a href="http://my.qqhyw.com/register?token=f86931336ca057915">免费注册</a>&nbsp;
+				<span>|</span>&nbsp;
+				<a href="http://my.qqhyw.com/getpass">找回密码</a>&nbsp;
 			</div>
 			<div class="f_r">
 				<a href="http://www.qqhyw.com/redirect.html?http://my.qqhyw.com/upgrade" target="_blank" class="red">按购买信息数量付费，无需年费，20元起购！</a>&nbsp;&nbsp;<span>|</span>&nbsp;
 				<a href="http://www.qqhyw.com/about/help.html">帮助中心</a>&nbsp;&nbsp;<span>|</span>&nbsp;
-				<script type="text/javascript">addFav('加入收藏');</script><a href="http://www.qqhyw.com/" title="全球黄页网 - 免费发布信息的B2B电子商务平台" rel="sidebar" onclick="if(UA.indexOf('chrome') != -1){alert('请按快捷键Ctrl+D收藏本页，谢谢');return false;}window.external.addFavorite(this.href, this.title);return false;">加入收藏</a>
+				<a href="http://www.qqhyw.com/" title="全球黄页网 - 免费发布信息的B2B电子商务平台">加入收藏</a>
 			</div>
 		</div>
 		</div>
@@ -37,7 +31,7 @@
 			<div class="m">
 				<div class="logo"><a href="http://www.qqhyw.com" title="全球黄页网"></a></div>
 				<div class="postedit"><a href="http://www.qqhyw.com/redirect.html?http://my.qqhyw.com/upgrade" class="post">付费信息充值</a></div>
-				<div class="topsearch f_r">
+				<div class="topsearch">
 					<div class="search_type" id="search_type" style="display:none">
 						<ul>
 							<li id="socompany" onclick="javascript:select_search_type('company')">搜公司</li>
@@ -46,9 +40,10 @@
 					</div>
 					<form action="" method="post" name="searform" id="searform" onsubmit="return checksearch();">
 					<input type="hidden" name="searchtype" id="searchtype" value="company">
-					<div class="select f_l"><a href="javascript:void(0)" onclick="javascript:if(Dd('search_type').style.display=='none'){Dd('search_type').style.display='block'}else{Dd('search_type').style.display='none'}" id="search_title">搜公司</a></div>
-					<input type="text" name="word" id="word" class="input f_l">
-					<input type="submit" name="" value="搜 索" class="submit f_l">
+					<div class="select"><a href="javascript:void(0)" onclick="javascript:if(Dd('search_type').style.display=='none'){Dd('search_type').style.display='block'}
+					else{Dd('search_type').style.display='none'}" id="search_title">搜公司</a></div>
+					<input type="text" name="word" id="word" class="input">
+					<input type="submit" name="" value="搜 索" class="submit">
 					</form>
 				</div>
 			</div>
@@ -68,20 +63,11 @@
 					<li><a href="http://www.qqhyw.com/company/c24/">电气市场</a></li>
 					<li><a href="http://www.qqhyw.com/company/c22/">仪器市场</a></li>
 					<li><a href="http://www.qqhyw.com/company/c11/">商业服务</a></li>
-														<li><a href="http://www.qqhyw.com/qqhyw/index.html">黄页产品</a></li>
+					<li><a href="http://www.qqhyw.com/qqhyw/index.html">黄页产品</a></li>
 				</ul>
 			</div>
 		</div>
-		<script type="text/javascript">
-			function getregurl(){
-				if(typeof(_TOKENCODE) != 'undefined'){
-					window.location.href='http://my.qqhyw.com/register?token=' + _TOKENCODE;
-				}else{
-					alert("您已经登录，请直接进入会员中心...")
-					window.location.href='http://my.qqhyw.com/';
-				}
-			}	
-			</script>
+		<div class="divline"></div>	
 			<div class="m">
 				<div class="homeleft">
 					<div class="info-side-block index-vip-company">
@@ -103,15 +89,11 @@
 			<li><span><a href="http://www.qqhyw.com/guangdong/" target="_blank">[广东]</a></span><a href="http://www.qqhyw.com/com/shitou220/" target="_blank">广州市星洋装饰材料有限公司</a></li>
 			<li><span><a href="http://www.qqhyw.com/shandong/" target="_blank">[山东]</a></span><a href="http://www.qqhyw.com/com/yexingtong/" target="_blank">济南业兴通工程机械有限公司</a></li>
 			<li><span><a href="http://www.qqhyw.com/henan/" target="_blank">[河南]</a></span><a href="http://www.qqhyw.com/com/sunshine0326/" target="_blank">郑州金眼睛健康咨询有限公司</a></li>
-			
 						</ul>
 					</div>
 					<div class="topmiddle">
-						<!----------广告------http://www.mmfj.com/mmfj/images/advert/advert1.jpg------>
 			<div class="ablock1"><a href="http://www.sumszw.com/templates/Keyword/index.html?websiteId=40000879&amp;source=ourwebsite" target="_blank">
-			<img src="/ad/sz.jpg" style="width:750px; height:330px;" alt="舟大师"></a></div>
-			
-			
+			<img src="/sz.jpg" style="width:750px; height:330px;" alt="舟大师"></a></div>
 						<div class="divline"></div>
 						<div class="newinfolist">
 							<div class="t">最新供应</div>
@@ -126,13 +108,14 @@
 			<li><div class="l"><a href="http://www.qqhyw.com/offerdetail/2116078.html" target="_blank">咸阳防护窗_防护窗价格_陕西欧冶道金属科..</a></div><div class="r">12-05</div></li>
 			<li class="padding10"><div class="l"><a href="http://www.qqhyw.com/offerdetail/2116077.html" target="_blank">正规沙发清洗哪家好_成都玻璃清洗_成都蓉..</a></div><div class="r">12-05</div></li>
 			<li><div class="l"><a href="http://www.qqhyw.com/offerdetail/2116076.html" target="_blank">山东清堵机_煤仓清堵机费用_河南明昱耐磨..</a></div><div class="r">12-05</div></li>
-			
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="homeright">
-					<div class="user"><a class="register-btn" href="javascript:void(0)" onclick="getregurl();">免费注册</a><a class="login-btn" title="马上登录,享受会员专属服务" href="javascript:void(0)" onclick="javascript:openurl('http://my.qqhyw.com/login')">登录</a><a class="supplier-btn" title="免费发布信息,生意自动上门" href="javascript:void(0)" onclick="javascript:openurl('http://my.qqhyw.com/post')">发布信息</a></div>
+					<div class="user"><a class="register-btn" href="http://my.qqhyw.com/register?token=931336ca0579229ac018">免费注册</a>
+						<a class="login-btn" title="马上登录,享受会员专属服务" href="http://my.qqhyw.com/login">登录</a>
+						<a class="supplier-btn" title="免费发布信息,生意自动上门" href="http://my.qqhyw.com/post">发布信息</a></div>
 					<div class="info-side-block user-notice">
 						<div class="info-detail-title ititle-withline px18">站内的数据<span class="f_r gray px11" style="position:relative; top:5px">最后更新于 21:06</span></div>
 						<div class="homecount">
@@ -160,7 +143,30 @@
 				</div>
 			</div>
 			<div class="divline"></div>
-		<div style="margin: 0px auto 5px; position: relative;border-bottom: 2px solid #e6e6e6;width:1200px;"><div style="border-bottom: 2px solid #e6e6e6; height: 34px;line-height: 34px; position: relative;font-size:15px;"><h4>产品展示</h4></div><div class="item-body" style="padding-top:0px;"><div id="QzInsideLinks" style="width: 470px;overflow: hidden;float: left!important;"><ul style="list-style: none;"><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1627957.html">河南小麦胚芽油厂家直销_河南进口小麦胚芽油加工厂</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1731162.html">佛山全自动固相萃取仪_全自动固相萃取仪厂家</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1693375.html">口碑好的四川电大专升本_四川电大专升本</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1756173.html">22年军队文职笔试时间_2022年军队文职体检时间</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1683927.html">公路界碑制造商_成都公路界碑</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.cig-green.com">绿烟实业</a> </li></ul></div><div id="QzOutsideLinks" style="width: 470px;overflow: hidden;float: left!important;"><ul style="list-style: none;"><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1578204.html">正规共聚焦拉曼成像系统代理_提供共聚焦拉曼成像系统经销商</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1622056.html">南京创博机械TSV超大容量挤出机主机辅机_XPS发泡TSV超大容量挤出机熔喷无纺布</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1636948.html">日本进口化妆品牌子_彩妆进口化妆品货源</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1762199.html">新车解放_解放奥威</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1605310.html">卧式双头中心孔磨床销售_江苏中心孔磨床配件供应</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.sooshong.com/yxpmIQreS7767670/offerdetail-163238701137214.html">硫磺片_硫磺生产商-洛阳天之道新材料科技有限公司</a> </li></ul></div></div> <div style="clear:both;"></div></div>
+		<div style="margin: 0px auto 5px; position: relative;border-bottom: 2px solid #e6e6e6;width:1200px;">
+			<div style="border-bottom: 2px solid #e6e6e6; height: 34px;line-height: 34px; position: relative;font-size:15px;"><h4>产品展示</h4></div>
+			<div class="item-body" style="padding-top:0px;">
+				<div id="QzInsideLinks" style="width: 470px;overflow: hidden;float: left!important;"><ul style="list-style: none;"><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1627957.html">河南小麦胚芽油厂家直销_河南进口小麦胚芽油加工厂</a> 
+				</li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1731162.html">佛山全自动固相萃取仪_全自动固相萃取仪厂家</a> 
+				</li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1693375.html">口碑好的四川电大专升本_四川电大专升本</a> 
+				</li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1756173.html">22年军队文职笔试时间_2022年军队文职体检时间</a> 
+				</li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> <a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1683927.html">公路界碑制造商_成都公路界碑</a> 
+				</li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.cig-green.com">绿烟实业</a> </li></ul></div>
+				<div id="QzOutsideLinks" style="width: 470px;overflow: hidden;float: left!important;"><ul style="list-style: none;"><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1578204.html">正规共聚焦拉曼成像系统代理_提供共聚焦拉曼成像系统经销商</a> </li>
+					<li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1622056.html">南京创博机械TSV超大容量挤出机主机辅机_XPS发泡TSV超大容量挤出机熔喷无纺布</a></li>
+				<li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+						<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1636948.html">日本进口化妆品牌子_彩妆进口化妆品货源</a> </li>
+				<li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1762199.html">新车解放_解放奥威</a> </li><li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.qqhyw.com/offerdetail/1605310.html">卧式双头中心孔磨床销售_江苏中心孔磨床配件供应</a> </li>
+					<li style="line-height: 24px;width: 350px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"> 
+					<a target="_blank" style="color: #444;text-decoration: none;" href="http://www.sooshong.com/yxpmIQreS7767670/offerdetail-163238701137214.html">硫磺片_硫磺生产商-洛阳天之道新材料科技有限公司</a> </li></ul></div></div> 
+					<div style="clear:both;"></div></div>
 		<div class="m">
 			<div class="ablock">
 			</div>
@@ -269,12 +275,11 @@
 			<a href="http://www.qqhyw.com/offer/c676/" target="_blank">塑料包装材料</a>
 			<a href="http://www.qqhyw.com/offer/c6883/" target="_blank">纸箱</a>
 			</li>
-			
-						</ul>
-					</div>
-					<div class="cat-picinfo">
-						<ul>
-							<li><table align="center" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF"><tbody><tr><td align="center"><a href="http://www.qqhyw.com/offerdetail/1847434.html" target="_blank"><img src="http://upload.qqhyw.com/info/2022/0408/154011_909449_76669.small.jpg" alt="喜报 | 瑞格电机获得10项实用新型国家专利"></a></td></tr></tbody></table><div class="text"><a href="http://www.qqhyw.com/offerdetail/1847434.html" target="_blank">喜报 | 瑞格电机获得10项实用新型..</a></div></li>
+		</ul>
+		</div>
+			<div class="cat-picinfo">
+			<ul>
+			<li><table align="center" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF"><tbody><tr><td align="center"><a href="http://www.qqhyw.com/offerdetail/1847434.html" target="_blank"><img src="http://upload.qqhyw.com/info/2022/0408/154011_909449_76669.small.jpg" alt="喜报 | 瑞格电机获得10项实用新型国家专利"></a></td></tr></tbody></table><div class="text"><a href="http://www.qqhyw.com/offerdetail/1847434.html" target="_blank">喜报 | 瑞格电机获得10项实用新型..</a></div></li>
 			<li><table align="center" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF"><tbody><tr><td align="center"><a href="http://www.qqhyw.com/offerdetail/1847429.html" target="_blank"><img src="http://upload.qqhyw.com/info/2022/0408/084817_037470_77701.small.jpg" alt="奥伯尔输送机械 U型无轴螺旋输送机 水平污泥输送设备 产品优良"></a></td></tr></tbody></table><div class="text"><a href="http://www.qqhyw.com/offerdetail/1847429.html" target="_blank">奥伯尔输送机械 U型无轴螺旋输送..</a></div></li>
 			<li><table align="center" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF"><tbody><tr><td align="center"><a href="http://www.qqhyw.com/offerdetail/1847428.html" target="_blank"><img src="http://upload.qqhyw.com/info/2022/0408/084608_019892_77701.small.jpg" alt="奥伯尔框式不锈钢搅拌器 非标搅拌机 碳钢搅拌泵设备厂家"></a></td></tr></tbody></table><div class="text"><a href="http://www.qqhyw.com/offerdetail/1847428.html" target="_blank">奥伯尔框式不锈钢搅拌器 非标搅拌..</a></div></li>
 			<li><table align="center" cellpadding="4" cellspacing="0" bgcolor="#FFFFFF"><tbody><tr><td align="center"><a href="http://www.qqhyw.com/offerdetail/1847427.html" target="_blank"><img src="http://upload.qqhyw.com/info/2022/0408/084350_314128_77701.small.jpg" alt="江苏奥伯尔JBJ型推进式桨式搅拌机 立式搅拌器设备碳钢衬塑"></a></td></tr></tbody></table><div class="text"><a href="http://www.qqhyw.com/offerdetail/1847427.html" target="_blank">江苏奥伯尔JBJ型推进式桨式搅拌机..</a></div></li>
@@ -1011,10 +1016,9 @@
 			<a href="http://www.qqhyw.com/wuhai/" target="_blank">乌海</a>
 			<a href="http://www.qqhyw.com/bayannaoer/" target="_blank">巴彦淖尔</a>
 			<a href="http://www.qqhyw.com/xingan/" target="_blank">兴安</a>
-			</li>
-			
-						</ul>
-					</div>
+			</li>	
+		</ul>
+		</div>
 				</div>
 			</div>
 			<div class="m"><div class="ablock"></div></div>
@@ -1032,51 +1036,20 @@
 			<a href="http://b2b.qqhyw.com/" target="_blank">产品大全</a>&nbsp;&nbsp;<span class="px10">|</span>&nbsp;
 			<br>交换链接联系Email：2851780802@qq.com&nbsp;<font class="orange">（申请链接要求: 百度权重4以上/百度收录10万页以上/快照正常，仅限黄页网/分类信息网和B2B电子商务网站）</font></div>
 			</div>
-			<script>
-				(function(){
-					var bp = document.createElement('script');
-					var curProtocol = window.location.protocol.split(':')[0];
-					if (curProtocol === 'https') {
-						bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-					}
-					else {
-						bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-					}
-					var s = document.getElementsByTagName("script")[0];
-					s.parentNode.insertBefore(bp, s);
-				})();
-				</script>
-				<script>(function(){
-					var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?96781d214ade0cbf5f7b3e84abf0d38f":"https://jspassport.ssl.qhimg.com/11.0.1.js?96781d214ade0cbf5f7b3e84abf0d38f";
-					document.write('<script src="' + src + '" id="sozz"><\/script>');
-					})();
-					</script>
-					<script src="http://js.passport.qihucdn.com/11.0.1.js?96781d214ade0cbf5f7b3e84abf0d38f" id="sozz"></script>
-					<script charset="utf-8" src="http://s8.qhres2.com/static/ab77b6ea7f3fbf79.js"></script>
-					<div class="footer">
-						<div class="m">
-						<a href="http://www.qqhyw.com/about/aboutus.html" target="_blank">关于本站</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/about/agreement.html" target="_blank">服务条款</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/about/disclaimer.html" target="_blank">免责声明</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/announce/10.html" target="_blank" rel="nofollow">防骗指南</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/about/contact.html" target="_blank">联系我们</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/redirect.html?http://my.qqhyw.com/upgrade" target="_blank" class="orange">付费服务</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/guestbook/" target="_blank" rel="nofollow">网站留言</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/sitemap.xml" target="_blank">网站地图</a>&nbsp;&nbsp;-&nbsp;
-						<a href="http://www.qqhyw.com/about/help.html" target="_blank">帮助中心</a>&nbsp;&nbsp;-&nbsp;
-							<a href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">粤ICP备18029393号-10</a>&nbsp;&nbsp;
-						<!--百度统计-->
-						<script>
-					var _hmt = _hmt || [];
-					(function() {
-					  var hm = document.createElement("script");
-					  hm.src = "https://hm.baidu.com/hm.js?04c07486b0e263af2a0361c32d4e4e8a";
-					  var s = document.getElementsByTagName("script")[0]; 
-					  s.parentNode.insertBefore(hm, s);
-					})();
-					</script>
-					
-					<br>Copyright 2009-2019 <a href="http://www.qqhyw.com">全球黄页网</a> 版权所有<br><img src="http://static.qqhyw.com/blue2016/images/police-icon.png" align="absmiddle">&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33028202000240" rel="nofollow" target="_blank" style="display:inline-block"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.qqhyw.com/redirect.html?http://www.beian.miit.gov.cn" target="_blank" rel="nofollow"></a></div>
-					</div>
-				</body>
+			<div class="footer">
+				<div class="m">
+					<a href="http://www.qqhyw.com/about/aboutus.html" target="_blank">关于本站</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/about/agreement.html" target="_blank">服务条款</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/about/disclaimer.html" target="_blank">免责声明</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/announce/10.html" target="_blank" rel="nofollow">防骗指南</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/about/contact.html" target="_blank">联系我们</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/redirect.html?http://my.qqhyw.com/upgrade" target="_blank" class="orange">付费服务</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/guestbook/" target="_blank" rel="nofollow">网站留言</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/sitemap.xml" target="_blank">网站地图</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.qqhyw.com/about/help.html" target="_blank">帮助中心</a>&nbsp;&nbsp;-&nbsp;
+					<a href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">粤ICP备18029393号-10</a>&nbsp;&nbsp;
+					<br>Copyright 2009-2019 <a href="http://www.qqhyw.com">全球黄页网</a> 版权所有<br><img src="/police-icon.jpg" align="absmiddle">&nbsp;
+				</div>
+			</div>
+	</body>
 </html>
